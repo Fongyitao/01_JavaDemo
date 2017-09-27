@@ -1,6 +1,6 @@
 package _01_;
 
-public class SuperMan extends Human implements Fly{
+public class SuperMan extends Human implements Super {
     public SuperMan() {
     }
 
@@ -18,3 +18,4 @@ public class SuperMan extends Human implements Fly{
         System.out.println("~铁拳~");
     }
 }
+
