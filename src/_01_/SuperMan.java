@@ -17,5 +17,9 @@ public class SuperMan extends Human implements Super {
     void fight() {
         System.out.println("~铁拳~");
     }
+
+    public void save(){
+        System.out.println("Saving Lives");
+    }
 }
 
